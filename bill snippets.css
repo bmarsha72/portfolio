@@ -1,0 +1,31 @@
+// Will auto-resize images so they don't come out of their containers
+// ------------------------------------------------------------------
+// A little help for responsive images
+img, object, embed {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+// Full screen background images
+// -----------------------------
+// Auto-sizes an image to take up entire
+// background width without losing aspect ratio
+.fs-background(@image) {
+  background: url('@{image}') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// The above would be written like this in REGULAR CSS:
+.my-class {
+  background: url('your-bg-url.here.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
