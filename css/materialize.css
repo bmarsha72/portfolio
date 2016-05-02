@@ -4108,6 +4108,7 @@ nav i.material-icons {
 
 nav .nav-wrapper {
   position: relative;
+  padding-bottom: 2px;
   height: 100%;
 }
 
