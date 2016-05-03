@@ -1,8 +1,15 @@
-(function($){
-  $(function(){
+$(document).ready(function(){
+  console.log('loaded')
+  $(".button-collapse").sideNav();
+  $('.parallax').parallax();
+})
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+// (function($){
+//   $(function(){
+//
+//     $('.button-collapse').sideNav();
+//     $('.parallax').parallax();
+//
+//   }); // end of document ready
+// })(jQuery); // end of jQuery name space

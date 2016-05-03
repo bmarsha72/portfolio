@@ -6,6 +6,8 @@
  * Made By MaterializeCSS.com
  */
 
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -19,6 +21,7 @@ nav .brand-logo {
 }
 
 #logo-container {
+  margin-left: 35px;
   font-family: 'Cherry Cream Soda', bold;
   font-size: 40px;
   color: #7DB010;
@@ -72,4 +75,10 @@ footer.page-footer {
 }
 #footer{
   background-color: #7DB010;
+}
+.fa .fa-bars {
+  color: #272727;
+}
+brand-logo{
+  background-color: #7F8F7E;
 }
