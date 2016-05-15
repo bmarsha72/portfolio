@@ -76,6 +76,13 @@ footer.page-footer {
 #footer{
   background-color: #7DB010;
 }
+#footerabout{
+  position: fixed;
+   width:103%;
+   margin-left:-10px;
+   bottom: 0;
+}
+
 .fa .fa-bars {
   color: #272727;
 }
