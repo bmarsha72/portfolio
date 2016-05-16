@@ -89,3 +89,41 @@ footer.page-footer {
 brand-logo{
   background-color: #7F8F7E;
 }
+
+
+.padded-multiline span {
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  display: inline;
+  padding: -0.2rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.badassfirst{
+  background: url=("photos/rsz_iceland_277.jpg");
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.badassfirst > .badasssecond {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 20px 10px;
+  background: inherit;
+  background-attachment: fixed;
+}
+.badassfirst > .badasssecond::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(12px);
+  filter: blur(12px);
+}
