@@ -101,10 +101,18 @@ brand-logo{
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-.badassfirst{
-  background: url=("photos/rsz_iceland_277.jpg");
+
+#badassbackground{
+  background: url(../photos/Iceland277copyresize.jpg);
+  background-size: 99%;
+  background-repeat: no-repeat;
+
+}
+
+.badassfirst{=
   background-attachment: fixed;
   overflow: hidden;
+
 }
 .badassfirst > .badasssecond {
   position: absolute;
