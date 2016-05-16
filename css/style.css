@@ -101,7 +101,7 @@ brand-logo{
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-
+/*
 #badassbackground{
   background: url(../photos/Iceland277copyresize.jpg);
   background-size: 99%;
@@ -134,4 +134,4 @@ brand-logo{
   background-attachment: fixed;
   -webkit-filter: blur(12px);
   filter: blur(12px);
-}
+}*/
