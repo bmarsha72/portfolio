@@ -1960,7 +1960,7 @@ $(document).ready(function(){
         }
         else {
           // Insert as text;
-          toast.innerHTML = html; 
+          toast.innerHTML = html;
         }
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
@@ -2539,9 +2539,9 @@ $(document).ready(function(){
 		    var offset = $(this.hash).offset().top + 1;
 
 //          offset - 200 allows elements near bottom of page to scroll
-			
+
 	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-			
+
 		  });
 		});
 		options = options || {
@@ -2742,7 +2742,7 @@ $(document).ready(function(){
         $(this).addClass('tabbed');
         var $this = $(this);
         $this.one('blur', function(e) {
-          
+
           $(this).removeClass('tabbed');
         });
         return;
@@ -3807,6 +3807,7 @@ $(document).ready(function(){
     // Touch Event
     var swipeLeft = false;
     var swipeRight = false;
+    $(".button-collapse").sideNav();
 
 
     // Dismissible Collections
@@ -6917,3 +6918,11 @@ Picker.extend( 'pickadate', DatePicker )
       }
     }; // Plugin end
 }( jQuery ));
+
+
+
+$(document).ready(function(){
+  console.log('loaded')
+  $(".button-collapse").sideNav();
+  $('.parallax').parallax();
+})
