@@ -6923,6 +6923,6 @@ Picker.extend( 'pickadate', DatePicker )
 
 $(document).ready(function(){
   console.log('loaded')
-  $(".button-collapse").sideNav();
+  $('.button-collapse').sideNav();
   $('.parallax').parallax();
 })

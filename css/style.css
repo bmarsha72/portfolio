@@ -32,9 +32,6 @@ p {
   line-height: 2rem;
 }
 
-.button-collapse {
-  color: ##7DB010;
-}
 
 .parallax-container {
   min-height: 200px;
@@ -97,4 +94,13 @@ brand-logo{
   padding: -0.2rem;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
+}
+#statement{
+  background-color: transparent;
+}
+body{
+  background-size: cover;
+}
+.material-icons{
+  color: black;
 }
